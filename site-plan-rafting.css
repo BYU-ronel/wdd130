@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap');
+body {
+    font-family: var(paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #540B0E;
+    --secondary-color: #9E2A2B;
+    --accent1-color: #E09F3E;
+    --accent2-color: #FFF3B0;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Sedan SC', serif;
+
+    --nav-background-color: #335C67;
+    --nav-link-color: #E09F3E;
+    --nav-hover-link-color: #540B0E;
+    --nav-hover-background-color: #9E2A2B;
+}
+h1, h2, h3, h4, h5, h5 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
