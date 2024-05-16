@@ -18,7 +18,7 @@ body {
     --nav-hover-link-color: #540B0E;
     --nav-hover-background-color: #9E2A2B;
 }
-h1, h2, h3, h4, h5, h5 {
+h1, h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -49,4 +49,9 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sedan SC', serif;
+    color: #9E2A2B;
 }
