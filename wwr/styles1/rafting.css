@@ -152,3 +152,27 @@
     height: 30px;
     width: 30px;
   }
+
+  .adventures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .adventures figure {
+    flex: 1 0 20%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .adventures img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .adventures figcaption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
