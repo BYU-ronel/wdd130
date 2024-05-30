@@ -176,3 +176,68 @@
     font-size: 1.2em;
     font-weight: bold;
   }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+  .contact-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  .form-field {
+    margin-bottom: 10px;
+  }
+
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .form-radio {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .form-checkbox {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .form-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-submit:hover {
+    background-color: #3e8e41;
+  }
