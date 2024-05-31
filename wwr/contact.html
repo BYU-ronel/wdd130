@@ -33,8 +33,54 @@
             </div>
             <h1>Employee Profiles</h1>
             <div class="profile-container">
-                <img src="https://via.placeholder.com/200x200/FFC107/000000?text=Employee+1" class="profile-image">
+                <div class="profile-image-container">
+                    <img src="https://via.placeholder.com/200x200/FFC107/000000?text=Employee+1" class="profile-image">
+                    <div class="caption">Employee 1 - Title</div>
+                </div>
+                <div class="profile-image-container">
+                    <img src="https://via.placeholder.com/200x200/2196F3/000000?text=Employee+2" class="profile-image">
+                    <div class="caption">Employee 2 - Title</div>
+                </div>
+                <div class="profile-image-container">
+                    <img src="https://via.placeholder.com/200x200/4CAF50/000000?text=Employee+3" class="profile-image">
+                    <div class="caption">Employee 3 - Title</div>
+                </div>
             </div>
+            <h2>Contact Us</h2>
+	        <form class="contact-form">
+		        <div class="form-field">
+			        <label for="name" class="form-label">Name:</label>
+			        <input type="text" id="name" name="name" class="form-input" required>
+		        </div>
+		        <div class="form-field">
+			        <label for="email" class="form-label">Email:</label>
+			        <input type="email" id="email" name="email" class="form-input" required>
+		        </div>
+		        <div class="form-field">
+			        <label for="purpose" class="form-label">Purpose of message:</label>
+			        <div class="form-radio-container">
+				    <input type="radio" id="general" name="purpose" value="general" class="form-radio" required>
+				    <label for="general" class="form-label">General Inquiry</label>
+			    </div>
+			    <div class="form-radio-container">
+				    <input type="radio" id="reservation" name="purpose" value="reservation" class="form-radio" required>
+				    <label for="reservation" class="form-label">Reservation Question</label>
+			    </div>
+			    <div class="form-radio-container">
+				    <input type="radio" id="suggestion" name="purpose" value="suggestion" class="form-radio" required>
+				    <label for="suggestion" class="form-label">Website Suggestion</label>
+			   </div>
+		       </div>
+		       <div class="form-field">
+			        <label for="message" class="form-label">Message:</label>
+			        <textarea id="message" name="message" class="form-input" required></textarea>
+		        </div>
+		        <div class="form-field">
+			        <input type="checkbox" id="newsletter" name="newsletter" class="form-checkbox">
+			        <label for="newsletter" class="form-label">Please subscribe me to the monthly newsletter</label>
+		        </div>
+		        <button type="submit" class="form-submit">Submit</button>
+	        </form>
             <article>
                 <img src="images/happy.jpeg" alt="Happy client">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa provident nisi non, doloribus fuga vel soluta et vero error sed neque, ullam corrupti modi quae repudiandae cupiditate dignissimos consequatur assumenda?</p>
