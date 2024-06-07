@@ -241,3 +241,55 @@
   .form-submit:hover {
     background-color: #3e8e41;
   }
+
+  .hero {
+    background-image: url(../images/rafting-hero.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trip-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .trip-column {
+    width: 30%;
+    margin: 20px;
+  }
+  
+  .trip-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trip-table th,.trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .hero {
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-column {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
